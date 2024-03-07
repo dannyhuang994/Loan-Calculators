@@ -1,4 +1,4 @@
-In this project, we have implemented two calculators:
+In this project, I have implemented two calculators:
 
 1. **Loan Repayment Calculator**: This calculator helps users estimate their monthly loan repayments based on factors such as loan amount, interest rate, and loan term.
 
