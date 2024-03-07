@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Loan Refinance Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Loan Refinance Calculator</h1>
+        <form id="refinanceForm">
+            <label for="originalInterestRate">Original Interest Rate (%):</label>
+            <input type="number" id="originalInterestRate" step="0.1" required>
+
+            <label for="remainingYears">Remaining Years:</label>
+            <input type="number" id="remainingYears" value="0">
+
+            <label for="remainingMonths">Remaining Months:</label>
+            <input type="number" id="remainingMonths" value="0">
+
+            <label for="originalMonthlyPayment">Original Monthly Payment ($):</label>
+            <input type="number" id="originalMonthlyPayment" required>
+
+            <label for="newInterestRate">New Interest Rate (%):</label>
+            <input type="number" id="newInterestRate" step="0.1" required>
+
+            <label for="newTermYears">New Loan Term (Years):</label>
+            <input type="number" id="newTermYears" value="0">
+
+            <label for="refinanceFee">Refinance Fee ($):</label>
+            <input type="number" id="refinanceFee" value="0">
+
+            <button type="button" onclick="calculateRefinance()">Calculate</button>
+
+            <div class="result">
+                <p id="newMonthlyPayment">---</p>
+                <p id="totalSavings">---</p>
+                <p id="remainingPrincipal">---</p>
+            </div>
+
+        </form>
+    </div>
+
+    <script src="refinance-script.js"></script>
+</body>
+
+</html>
