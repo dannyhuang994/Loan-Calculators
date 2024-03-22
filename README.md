@@ -1,4 +1,7 @@
+You can access the [Loan Repayment Calculator](https://dannyhuang994.github.io/Loan-Repayment-Calculators/loan-payment-calculator) and the [Refinance Calculator](https://dannyhuang994.github.io/Loan-Repayment-Calculators/refinance-calculator).
+
 In this project, I have implemented two calculators:
+
 
 1. **Loan Repayment Calculator**: This calculator helps users estimate their monthly loan repayments based on factors such as loan amount, interest rate, and loan term.
 
@@ -9,4 +12,3 @@ In this project, I have implemented two calculators:
 ![image](https://github.com/dannyhuang994/Loan-Repayment-Calculators/assets/60530349/8c91235a-7c14-41b0-b468-71166abb93df)
 
  
-You can access the [Loan Repayment Calculator](https://dannyhuang994.github.io/Loan-Repayment-Calculators/loan-payment-calculator) and the [Refinance Calculator](https://dannyhuang994.github.io/Loan-Repayment-Calculators/refinance-calculator).
