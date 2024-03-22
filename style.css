@@ -6,9 +6,11 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     flex-wrap: wrap;
     /* to show the text otherwise it will covered by the edge */
+
+    gap: 30px
 }
 
 .container {
@@ -49,6 +51,42 @@ button:hover {
     background-color: #0056b3;
 }
 
+
+/* style for the generated table after calculation */
 .result {
     font-size: 1.5em;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #eeeeee;
+    background-color: #fff
+}
+
+
+th,
+td {
+    padding: 8px;
+    text-align: right;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(1) {
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #ddd;
 }
