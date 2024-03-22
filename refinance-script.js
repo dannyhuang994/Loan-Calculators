@@ -27,7 +27,7 @@ function calculateRefinance() {
     document.getElementById("remainingPrincipal").innerText = "Remaining Principal: $" + remainingPrincipal.toFixed(2);
 
     if (!isNaN(newMonthlyPayment)) {
-        generateYearlyTable(newMonthlyPayment, remainingPrincipal, newInterestRate, newTermMonths);
+        generateYearlyTable(newMonthlyPayment, remainingPrincipal + refinanceFee, newInterestRate, newTermMonths);
     }
 }
 
